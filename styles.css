@@ -22,11 +22,20 @@ button {
   margin-top: 5px;
   border: 1px solid #5f9341;
   color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkgreen;
 }
 
 #delete-btn {
   background-color: white;
   color: #5f9341;
+}
+
+#delete-btn:hover {
+  background-color: whitesmoke;
 }
 
 ul {
